@@ -1,8 +1,6 @@
 
 # Expo Delivery
 
-Projeto criado para aperfeiçoamento dos meus conhecimento em Expo + TypeScript, onde desenvolvi um aplicativa de controle de mesas de um restaurante
-
 
 ## Stack utilizada
 
