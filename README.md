@@ -53,4 +53,3 @@ Adicionar font's
 - [react-native-svg](https://github.com/software-mansion/react-native-svg)
 - [styled-components](https://styled-components.com/docs)
 - [react-native-intl](https://www.npmjs.com/package/react-native-intl)
-
