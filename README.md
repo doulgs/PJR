@@ -19,17 +19,6 @@ Projeto criado para aperfeiçoamento dos meus conhecimento em Expo + TypeScript,
 - Abertura de mesa
 - Controle de pedido (Listagem/Registro)
 
-
-## Documentação de cores
-
-| Cor               | Hexadecimal                                                |
-| ----------------- | ---------------------------------------------------------------- |
-| Cor exemplo       | ![#0a192f](https://via.placeholder.com/10/fafafa?text=+) #fafafa |
-| Cor exemplo       | ![#999999](https://via.placeholder.com/10/999999?text=+) #999999 |
-| Cor exemplo       | ![#666666](https://via.placeholder.com/10/666666?text=+) #666666 |
-| Cor exemplo       | ![#d73035](https://via.placeholder.com/10/d73035?text=+) #d73035 |
-
-
 ## Instalação
 
 Instalação geral
