@@ -5,6 +5,10 @@ import { StatusBar } from "expo-status-bar";
 import "intl";
 import "intl/locale-data/jsonp/pt-BR";
 
+import { ThemeProvider } from "styled-components/native";
+import { darkTheme } from "./src/theme/darkTheme";
+import { lightTheme } from "./src/theme/lightTheme";
+
 export default function App() {
   const [isFontLoaded] = useFonts({
     "GeneralSans-400": require("./src/assets/fonts/GeneralSans-Regular.otf"),
@@ -18,8 +22,10 @@ export default function App() {
 
   return (
     <>
-      <StatusBar style="auto" backgroundColor="#fafafa" />
-      <Main />
+      <ThemeProvider theme={lightTheme}>
+        <StatusBar style="auto" />
+        <Main />
+      </ThemeProvider>
     </>
   );
 }

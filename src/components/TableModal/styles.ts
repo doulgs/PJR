@@ -4,12 +4,12 @@ export const Overlay = styled.KeyboardAvoidingView`
   flex: 1;
   align-items: stretch;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.6);
+  background: ${({ theme }) => theme.colors?.Gray[600]};
   padding: 0 24px;
 `;
 
 export const ModalBody = styled.View`
-  background: #fafafa;
+  background: ${({ theme }) => theme.colors?.Foreground[50]};
   border-radius: 8px;
   padding: 24px;
   width: 100%;
@@ -26,8 +26,8 @@ export const Form = styled.View`
 `;
 
 export const Input = styled.TextInput`
-  background: #ffffff;
-  border: 1px solid rgba(204, 204, 204, 0.5);
+  background: ${({ theme }) => theme.colors?.Foreground[100]};
+  border: 1px solid ${({ theme }) => theme.colors?.Gray[300]};
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 24px;

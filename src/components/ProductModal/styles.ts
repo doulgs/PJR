@@ -9,7 +9,7 @@ export const Image = styled.ImageBackground`
 export const CloseButton = styled.TouchableOpacity`
   width: 32px;
   height: 32px;
-  background: rgba(0, 0, 0, 0.5);
+  background: ${({ theme }) => theme.colors?.Gray[400]};
   border-radius: 16px;
   align-items: center;
   justify-content: center;
@@ -17,7 +17,7 @@ export const CloseButton = styled.TouchableOpacity`
 `;
 
 export const ModalBody = styled.View`
-  background: #fafafa;
+  background: ${({ theme }) => theme.colors?.Foreground[50]};
   flex: 1;
   padding: 32px 24px 0px;
 `;
@@ -30,7 +30,7 @@ export const IngredientsContainer = styled.View`
 `;
 
 export const Ingredient = styled.View`
-  border: 1px solid rgba(204, 204, 204, 0.3);
+  border: 1px solid ${({ theme }) => theme.colors?.Gray[300]};
   flex-direction: row;
   padding: 16px;
   border-radius: 8px;
@@ -40,7 +40,7 @@ export const Ingredient = styled.View`
 
 export const Footer = styled.View`
   min-height: 110px;
-  background: #fff;
+  background: ${({ theme }) => theme.colors?.Foreground[100]};
   padding: 24px 24px;
 `;
 

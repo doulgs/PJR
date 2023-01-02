@@ -6,7 +6,7 @@ const isAndroid = Platform.OS === "android";
 export const Container = styled.SafeAreaView`
   flex: 1;
   margin-top: ${isAndroid ? `${StatusBar.currentHeight}px` : "0px"};
-  background: #fafafa;
+  background: ${({ theme }) => theme.colors?.Foreground[50]};
 `;
 
 export const CategoriesContainer = styled.View`
@@ -20,7 +20,7 @@ export const ManuContainer = styled.View`
 
 export const Footer = styled.View`
   min-height: 110px;
-  background: #fff;
+  background: ${({ theme }) => theme.colors?.Foreground[100]};
   padding: 24px 24px;
 `;
 

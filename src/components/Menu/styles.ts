@@ -19,7 +19,7 @@ export const ProductDetails = styled.View`
 export const Separator = styled.View`
   width: 100%;
   height: 1px;
-  background: rgba(204, 204, 204, 0.3);
+  background: ${({ theme }) => theme.colors?.Gray[300]};
   margin: 24px 0px;
 `;
 
